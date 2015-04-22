@@ -3,29 +3,29 @@
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 
 
-*tBodyAcc-XYZ
-*tGravityAcc-XYZ
-*tBodyAccJerk-XYZ
-*tBodyGyro-XYZ
-*tBodyGyroJerk-XYZ
-*tBodyAccMag
-*tGravityAccMag
-*tBodyAccJerkMag
-*tBodyGyroMag
-*tBodyGyroJerkMag
-*fBodyAcc-XYZ
-*fBodyAccJerk-XYZ
-*fBodyGyro-XYZ
-*fBodyAccMag
-*fBodyAccJerkMag
-*fBodyGyroMag
-*fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-Subject is a integer from 1-30
+Subject is a factor from 1-30
 
-Activity is one of six factors:
+Activity is one of six factors, as factor:
 
 * WALKING
 * WALKING_UPSTAIRS
@@ -34,8 +34,10 @@ Activity is one of six factors:
 * STANDING
 * LAYING
 
-mean(): Mean value: indicated as mean
-std(): Standard deviation: indicated as mean
+mean(): Mean value: indicated as mean, is numeric
+
+std(): Standard deviation: indicated as mean, is numeric
+
 
 ## In the dataframe tidyData.txt the following columns are represented
 
